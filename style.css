@@ -4,42 +4,78 @@
 }
 
 body {
-    background-color: rgb(45, 45, 45);
+    background-color: rgb(91, 91, 91);
     color: rgb(213, 213, 213);
 }
 
 strong {
-    color: red;
+    color: rgb(0, 21, 255);
 }
 
 h1 {
-    color: rgb(157, 0, 0);
+    color: rgb(13, 0, 157);
 }
 
 h3 {
-    color: rgb(157, 0, 0);
+    color: rgb(0, 3, 157);
 }
 
 a {
-    color: red
+    color: darkblue
 }
 
 a:visited {
-    color: rgb(255, 0, 144);
+    color: rgb(0, 229, 255);
 }
 
 hr {
     height: 3px;
-    background-color: black;
+    background-color: inherit;
     border: none;
     color: inherit;
+    border: none;
+    border-top: 5px dotted rgb(0, 0, 0);
+    color: #fff;
+    width: 25%;
 }
 
 th {
-    color: red;
+    color: rgb(0, 42, 255);
 }
 
 table {
     padding: 5px 10px;
     border: 1px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+}
+
+.button {
+    background-color: darkblue;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 50%;
+    box-shadow: 0 5px rgb(32, 32, 32);
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+}
+
+.button:hover {
+    background-color: #0079fb
+}
+
+.button:active {
+    background-color: #0079fb;
+    box-shadow: 0 5px rgb(32, 32, 32);
+    transform: translateY(4px);
 }
