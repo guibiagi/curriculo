@@ -8,8 +8,9 @@ body {
     color: rgb(213, 213, 213);
 }
 
-strong {
+.negrito {
     color: rgb(0, 21, 255);
+    font-weight: bold;
 }
 
 h1 {
@@ -21,7 +22,8 @@ h3 {
 }
 
 a {
-    color: darkblue
+    color: darkblue;
+    text-align: center;
 }
 
 a:visited {
@@ -76,6 +78,72 @@ table {
 
 .button:active {
     background-color: #0079fb;
+    box-shadow: 0 5px rgb(32, 32, 32);
+    transform: translateY(4px);
+}
+
+.foto {
+    width: 30%;
+    float: left;
+    padding: 20px;
+    display: block;
+}
+
+.titulo {
+    padding: 20px;
+}
+
+div.container {
+    display: flex;
+    border-bottom: 2px solid darkblue;
+    justify-content: center;
+}
+
+div.secao {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.links {
+    display: inline-block;
+    padding: 50px;
+}
+
+img.logo {
+    width: 100px;
+    height: 100px;
+    background-color: #00A39C;
+    padding: 15px 15px;
+    border-radius: 20%;
+    box-shadow: 0 5px rgb(32, 32, 32);
+}
+
+img.logo:hover {
+    background-color: #003b5c
+}
+
+img.logo:active {
+    background-color: #00c5fb;
+    box-shadow: 0 5px rgb(32, 32, 32);
+    transform: translateY(4px);
+}
+
+img.sanfarma {
+    width: 262px;
+    height: 75px;
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 10%;
+    box-shadow: 0 5px rgb(32, 32, 32);
+}
+
+img.sanfarma:hover {
+    background-color: #00c5fb;
+}
+
+img.sanfarma:active {
+    background-color: #00c5fb;
     box-shadow: 0 5px rgb(32, 32, 32);
     transform: translateY(4px);
 }
